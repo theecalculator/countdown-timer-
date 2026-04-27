@@ -25,6 +25,8 @@ body {
   border: 1px solid rgba(34, 197, 94, 1);
   padding: 20px;
   margin-top: 20px;
+  font-size: 30px;
+  color: rgba(34, 197, 94, 1);
 
 button {
   background: none;
