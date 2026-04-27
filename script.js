@@ -1,6 +1,6 @@
 //Target time
 const targetDate = new
-Date('2026-06-01T00:00:00').getTime();
+Date('2026-06-07T00:00:00').getTime();
 
 let lastHour = null;
 
