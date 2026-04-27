@@ -36,7 +36,9 @@ function updateWidthFlip(element, newValue) {
       element.classList.remove('flip');
     }, 200)
   }
+  
 }
+
 //===========================================
 //UPDATE TIME
 //===========================================
@@ -68,6 +70,7 @@ function updateCountdown () {
       navigator.vibrate(duration);
     }
   }
+  vibrateDevice();
 
   updateWidthFlip(days.textContent = daysl.toString().padStart(2, '0'));
   updateWidthFlip(hours.textContent = hoursl.toString().padStart(2, '0'));
@@ -78,6 +81,8 @@ function updateCountdown () {
   requestAnimationFrame(updateCountdown);
 
   //hours.toString().padStart(2, '0');
+  
+
 }
 
 updateCountdown();
